@@ -2,15 +2,31 @@ public class EAN13 {
     
     private String codice;
 
+    /**
+     * file che effettua le verifiche del codice ean 
+     * 
+     * @author Valerio Cascino
+     * @version 1.0
+     * @since 10/05/2023
+     * @param c setta il codice ean
+     */
    
     public void setCodice(String c){
         codice = c;
     }
+    /**
+     * 
+     * @return codice ean
+     */
 
     public String getCodice(){
         return codice;
     }
 
+    /**
+     * 
+     * @return false verifica la lunghezza del codice ean
+     */
 
     public boolean verificaCodice(){
 
